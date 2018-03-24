@@ -1,0 +1,17 @@
+# Global options
+options:
+  includeOriginalLine: false
+
+input:
+  files:
+      - '/home/tom/test/trafAld.json'
+output:
+  kafka: 
+   module: logagent-output-kafka
+   host: localhost
+   port: 2181 
+   topic: test01
+   requireAcks: 1
+   sslEnable: false
+   sslOptions: 
+      - rejectUnauthorized: false

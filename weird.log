@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2018-03-12-20-47-02
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1520887565.657622	CYo0Ir37bTXe6yIlch	127.0.0.1	11142	127.0.0.1	11144	bad_UDP_checksum	-	F	bro
+#close	2018-03-12-20-47-02

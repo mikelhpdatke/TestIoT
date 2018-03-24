@@ -1,0 +1,10 @@
+
+options:
+  includeOriginalLine: false
+
+input:
+  files:
+      - '*.log'
+output:
+  # print parsed logs in YAML format to stdout if supress is set false    
+  stdout: true # use 'pretty' for pretty json and 'ldjson' for line delimited json (default)
